@@ -7,7 +7,7 @@ The project was also started to test building React / TypeScript desktop applica
 ## Version log
 
 ### 2022-07-29 v0.4.0
-- Implement the application dropdown menu.
+- Re-design the application dropdown menu bar.
 ### 2022-07-28 v0.3.4
 - Add menu item to set the root directory of the hierarchy displayed in the tree view.
 - Fix error in the directory stack: a child directory was automatically displayed asselected if its parent had the same name.
