@@ -6,16 +6,27 @@ The project was also started to test building React typeScriptdesktop applicatio
 
 ## Version log
 
-### 2022-07-18 v0.1
-- The Tree view is functional but only displays the file hierarchy inside a hardcoded directory ...
+### 2022-07-29 v0.4
+- Implement the application dropdown menu.
+### 2022-07-28 v0.33
+- Fixed error in the directory stack: a child directory was automatically displayed asselected if its parent had the same name.
+- Fixed error in the path breadcrumbs selection: empty pathFromRoot was displayed and selected as "/".
+- Fixed error in the path breadcrumbs selection: root was never selected
+### 2022-07-27 v0.3
+- Add a modal dialog to display the Root Directory selector.
+- Implement an action on user selection of the Root Directory to initialize the Tree view.
 ### 2022-07-23 v0.2
 - The Root Directory selector is functional but user selection does not result in an action ...
+### 2022-07-18 v0.1
+- The Tree view is functional but only displays the file hierarchy inside a hardcoded directory ...
 
 ## RoadMap
 
-### v0.3
-- Implement the menu.
-- Add a modal dialog to display the Root Directory selector.
-- Implement an action on user selection of the Root Directory to initialize the Tree view.
-### v0.4
 ### v0.5
+- export the hierarchy to HTML
+### v0.6
+- export the hierarchy to text
+### v0.7
+- add funtionality to grey out or hide files and directories
+### v0.8
+- 
