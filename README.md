@@ -8,10 +8,11 @@ The project was also started to test building React / TypeScript desktop applica
 
 ### 2022-07-29 v0.4.0
 - Implement the application dropdown menu.
-### 2022-07-28 v0.3.3
-- Fixed error in the directory stack: a child directory was automatically displayed asselected if its parent had the same name.
-- Fixed error in the path breadcrumbs selection: empty pathFromRoot was displayed and selected as "/".
-- Fixed error in the path breadcrumbs selection: root was never selected
+### 2022-07-28 v0.3.4
+- Add menu item to set the root directory of the hierarchy displayed in the tree view.
+- Fix error in the directory stack: a child directory was automatically displayed asselected if its parent had the same name.
+- Fix error in the path breadcrumbs selection: empty pathFromRoot was displayed and selected as "/".
+- Fix error in the path breadcrumbs selection: root was never selected
 ### 2022-07-27 v0.3.0
 - Add a modal dialog to display the Root Directory selector.
 - Implement an action on user selection of the Root Directory to initialize the Tree view.
