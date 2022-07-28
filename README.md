@@ -2,7 +2,7 @@
 
 File Tree is a little utility program allowing users to render the file hierarchy inside a directory to document projects.
 
-The project was also started to test building React typeScriptdesktop applications with [tauri](https://tauri.app/).
+The project was also started to test building React / TypeScript desktop applications with [tauri](https://tauri.app/).
 
 ## Version log
 
