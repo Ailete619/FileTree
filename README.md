@@ -1,4 +1,4 @@
-# FileTree v0.2
+# FileTree v0.3.3
 
 File Tree is a little utility program allowing users to render the file hierarchy inside a directory to document projects.
 
